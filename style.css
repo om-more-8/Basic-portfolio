@@ -1,0 +1,94 @@
+
+.container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.code-img{
+    display:grid;
+    column-span: 12;    
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.background{
+    background: linear-gradient(300deg, #4a1a9e, #88444e, #e0d8d7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    
+}
+.lead{
+    color: white;
+    margin-top: 50px;
+}
+
+.briefcase-img{
+    width: 60px;
+    position: relative;
+    left: 30px;
+    bottom: 5px;
+    justify-content: space-between;
+    padding-left: 0px;
+    
+}
+.p2{
+    color: black;
+}
+
+.om-pic{
+    width: 180px;
+    height: 195px;
+    border-radius: 55%;
+    margin-top: -2rem;
+    
+     
+}
+.python{
+    margin-left: -12px;
+    max-width: 100px;
+    height: 80px;
+    padding: 10px;
+}
+
+.react{
+    margin-left: -16px;
+    max-width: 100px;
+    height: 80px;
+    padding: 10px;
+}
+
+.tensorflow{
+    margin-left: -18px;
+    max-width: 100px;
+    height: 80px;
+    padding: 10px;
+}
+
+.frontend{
+    margin-left: -18px;
+    max-width: 90px;
+    height: 70px;
+    padding: 10px;
+    margin-top: 12px;
+
+}
+.contact {
+    display: flex; 
+    justify-content:center;
+    align-items:center;
+    width: 100%;    
+}
+.ui{
+    font-weight:400;
+}
+.footer{
+    background: linear-gradient(300deg, #4a1a9e, #88444e, #e0d8d7);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite
+    width: 100%
+
+}
+
+
